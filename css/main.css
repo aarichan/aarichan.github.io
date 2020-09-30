@@ -1,0 +1,31 @@
+body {
+	background-color: lightyellow;
+}
+.nav-section {
+	padding: 10px;
+	background-color: aliceblue;
+}
+.nav-format {
+	padding: 10px;
+}
+.nav-bar-item-container {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: row;
+}
+.nav-bar-item-container li {
+
+}
+.nav-selections {
+	background-color: yellow;
+}
+#nav-name {
+	font: Arial;
+	font-size: 24px;
+	font-style: italic;
+}
+#nav-buffer-space {
+	justify-content: flex-start;
+}
