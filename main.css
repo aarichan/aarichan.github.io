@@ -48,7 +48,7 @@ li a:hover:not(.active) {
 }
 .CoverPic {
 	height: 100vh;
-	background-image: url("coverimg.JPG");
+	background-image: url("picofme.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
