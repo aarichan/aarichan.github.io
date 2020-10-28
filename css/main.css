@@ -1,7 +1,6 @@
 html, body {
 	max-width: 100%;
   overflow-x: hidden;
-	scroll-behavior: smooth;
 }
 a:hover {
     cursor: default;
@@ -47,27 +46,17 @@ li a:hover:not(.active) {
 #moveright {
 	float: right;
 }
-.backgroundcontainer {
-	max-height: 100vh;
-	height: -moz-available;          /* WebKit-based browsers will ignore this. */
-	height: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
-	overflow: hidden;
+#CoverPic {
+	height: 100vh;
+	background-image: url("../imgs/coverimg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 }
-.backgroundcontainer img{
-	width: 100%;
-	width: -moz-available;          /* WebKit-based browsers will ignore this. */
-	width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
-	overflow: hidden;
-}
-.About-Me {
-	max-height: 100vh;
-	height: -moz-available;          /* WebKit-based browsers will ignore this. */
-	height: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
-	overflow: hidden;
-}
-.About-Me img{
-	width: 100%;
-	width: -moz-available;          /* WebKit-based browsers will ignore this. */
-	width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
-	overflow: hidden;
+#AboutMe {
+	height: 100vh;
+	background-image: url("../imgs/coverimg.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 }
