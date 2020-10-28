@@ -55,7 +55,9 @@ li a:hover:not(.active) {
 	overflow: hidden;
 }
 .backgroundcontainer img{
-	width: 100%;
+	width: 100vw;
+	width: -moz-available;          /* WebKit-based browsers will ignore this. */
+	width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
 	width: fill-available;
 	overflow: hidden;
 }
@@ -67,7 +69,8 @@ li a:hover:not(.active) {
 	overflow: hidden;
 }
 .About-Me img{
-	width: 100%;
+	width: 100vw;
+	width: -moz-available;          /* WebKit-based browsers will ignore this. */
+	width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
 	width: fill-available;
-	overflow: hidden;
 }
