@@ -1,8 +1,11 @@
 html, body {
 	max-width: 100%;
   overflow-x: hidden;
+	scroll-behavior: smooth;
 }
-
+a:hover {
+    cursor: default;
+}
 body {
 	background-color: lightyellow;
 	font-family: Arial;
@@ -52,7 +55,10 @@ li a:hover:not(.active) {
 .backgroundcontainer img{
 	width: -webkit-fill-available;
 }
-.second {
+.About-Me {
 	max-height: -webkit-fill-available;
 	overflow: hidden;
+}
+.About-Me img{
+	width: -webkit-fill-available;
 }
