@@ -1,13 +1,17 @@
 body {
 	background-color: lightyellow;
 	font-family: Arial;
+	margin: 0px;
 }
 ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
   overflow: hidden;
   background-color: #333;
+	position: fixed;
+  top: 0;
+  width: 100%;
 }
 li {
   float: left;
@@ -34,4 +38,11 @@ li a:hover:not(.active) {
 }
 #moveright {
 	float: right;
+}
+.backgroundcontainer {
+	max-height: 100vh;
+	overflow: hidden;
+}
+.backgroundcontainer img{
+	width: 100vw;
 }
