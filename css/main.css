@@ -40,9 +40,9 @@ li a:hover:not(.active) {
 	float: right;
 }
 .backgroundcontainer {
-	max-height: 100vh;
+	max-height: -webkit-fill-available;
 	overflow: hidden;
 }
 .backgroundcontainer img{
-	width: 100vw;
+	width: -webkit-fill-available;
 }
