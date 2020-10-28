@@ -1,6 +1,12 @@
+html, body {
+	max-width: 100%;
+  overflow-x: hidden;
+}
+
 body {
 	background-color: lightyellow;
 	font-family: Arial;
+	font-size: 20px;
 	margin: 0px;
 }
 ul {
@@ -22,7 +28,7 @@ li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 25px 20px;
   text-decoration: none;
 }
 
@@ -45,4 +51,8 @@ li a:hover:not(.active) {
 }
 .backgroundcontainer img{
 	width: -webkit-fill-available;
+}
+.second {
+	max-height: -webkit-fill-available;
+	overflow: hidden;
 }
