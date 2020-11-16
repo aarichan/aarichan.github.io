@@ -24,8 +24,6 @@ ul {
 li {
   float: left;
 }
-li:first-child {
-}
 li a {
   display: block;
   color: white;
