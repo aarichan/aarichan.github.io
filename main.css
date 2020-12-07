@@ -93,6 +93,12 @@ body {
   }
 }
 
+@media (max-width: 1080px) {
+  html,
+  body {
+    background-image: url("./imgs/backdrop_long.jpg");
+  }
+}
 
 /*
  * Cover
