@@ -27,30 +27,39 @@
     </style>
   </head>
   <body class="text-center">
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-			<header class="masthead mb-auto">
-	    	<div class="inner">
-		      <h3 class="masthead-brand">Aaric Han</h3>
-		      <nav class="nav nav-masthead justify-content-center">
-		        <a class="nav-link active" href="./index.html">Home</a>
-		        <a class="nav-link" href="./aboutme.html">About Me</a>
-		        <a class="nav-link" href="#">Projects</a>
-						<a class="nav-link" href="#">Blog</a>
-						<a class="nav-link disabled" style="color: rgb(255, 255, 255, 0.05)" href="#">YouTube</a>
-		      </nav>
-	    	</div>
-  		</header>
+    <div class="container w-100 h-100 p-3 mx-auto flex-column">
+			<nav class="navbar navbar-expand-lg navbar-dark">
+  			<a class="navbar-brand" href="./index.html">Aaric Han</a>
+  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    			<span class="navbar-toggler-icon"></span>
+  			</button>
+  			<div class="collapse navbar-collapse" id="navbarNav">
+    			<ul class="navbar-nav ml-auto">
+      			<li class="nav-item active">
+        			<a class="nav-link" href="./index.html">Home<span class="sr-only">(current)</span></a>
+      			</li>
+      			<li class="nav-item">
+        			<a class="nav-link" href="./aboutme.html">About Me</a>
+      			</li>
+      			<li class="nav-item">
+        			<a class="nav-link" href="./projects.html">Projects</a>
+      			</li>
+						<li class="nav-item">
+        			<a class="nav-link" href="./blogs/blogs2020/blogs2020.html">Blogs</a>
+      			</li>
+      			<li class="nav-item">
+        			<a class="nav-link disabled" href="#"><strike>YouTube</strike> Coming Soon</a>
+      			</li>
+    			</ul>
+  			</div>
+			</nav>
 
 		  <main role="main" class="inner cover">
-				<h1 class="cover-heading">Hi, I'm Aaric</h1>
-		    <h1 class="cover-heading">Welcome to my website!</h1>
+				<h1 class="cover-heading" style="margin-bottom: 2rem; margin-top: 2rem;">Hi, I'm Aaric</h1>
+				<img class="cover-image" src="./imgs/picofme.jpg" alt="Self-Portrait of Aaric" style="display: block; margin: auto; width: 50%; border-radius: 50%;">
+		    <h1 class="cover-heading" style="margin-top: 2rem;">Welcome to my website!</h1>
 		  </main>
 
-		  <footer class="mastfoot mt-auto">
-		    <div class="inner">
-		      <p>Website by Aaric Han</p>
-		    </div>
-		  </footer>
 		</div>
 	</body>
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
