@@ -47,16 +47,14 @@ hr {
   text-align: left;
 }
 
-.post-title, .post-subtitle {
+.post-title, .post-subtitle, .post-meta {
   color: white;
 }
-.post-preview > a {
-  color: #212529;
-}
 
-.post-preview > a:focus, .post-preview > a:hover {
-  text-decoration: none;
-  color: #0085A1;
+.post-preview > a:focus, .post-preview > a:hover h2,
+.post-preview > a:hover h4, .post-preview > a:hover h6,
+.post-preview > a:hover p{
+  color: #a4a7ab;
 }
 
 .post-preview > a > .post-title {
@@ -74,7 +72,7 @@ hr {
   font-size: 18px;
   font-style: italic;
   margin-top: 0;
-  color: #868e96;
+  color: white;
 }
 
 .post-preview > .post-meta > a {
@@ -86,4 +84,5 @@ hr {
 .post-preview > .post-meta > a:focus, .post-preview > .post-meta > a:hover {
   text-decoration: none;
   pointer-events: none;
+  color: white;
 }
