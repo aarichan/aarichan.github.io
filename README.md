@@ -11,7 +11,8 @@ If you found my website and/or GitHub profile interesting and want to chat, I wo
 My contact info can be found on my personal website. Feel free to reach out with any questions, concerns, comments, or discussion and I would be happy to entertain them!
 
 ## Website Changelog
-### 04/26/21
+### Version 0.0.1 
+Released on 04/26/21
 - New personal website launched
 - Verified Google Search Console for SEO
 - Changed App.js to say "Under Construction... Please check back later!"
