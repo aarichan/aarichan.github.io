@@ -12,9 +12,6 @@ const pagesList = [
     name: "Projects"
   },
   {
-    name: "Resume"
-  },
-  {
     name: "Articles"
   },
   {

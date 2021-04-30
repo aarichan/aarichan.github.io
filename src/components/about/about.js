@@ -16,7 +16,7 @@
    }
    render() {
      return (
-      <div className="App">
+      <div className="App" id='About'>
         <header className="App-header">
           <h1>About Me</h1>
           <br></br>

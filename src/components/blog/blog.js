@@ -9,14 +9,14 @@
  import './blog.css'
  import React from 'react';
  
- class Articles extends React.Component {
+ class Blog extends React.Component {
    constructor() {
      super();
      this.state = {};
    }
    render() {
      return (
-      <div className="App">
+      <div className="App" id="Blog">
         <header className="App-header">
           <h1>Blog</h1>
           <br></br>
@@ -27,5 +27,5 @@
    }
  }
  
- export default Articles;
+ export default Blog;
  

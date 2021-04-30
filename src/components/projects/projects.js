@@ -11,7 +11,7 @@
  
  export default function Projects() {
   return (
-  <div className="App">
+  <div className="App"id="Projects">
     <header className="App-header">
       <h1>Projects</h1>
       <br></br>

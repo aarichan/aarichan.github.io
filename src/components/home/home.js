@@ -17,7 +17,7 @@
    }
    render() {
      return (
-      <div className="App">
+      <div className="App" id='Home'>
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1>Under Construction... Please check back later!</h1>

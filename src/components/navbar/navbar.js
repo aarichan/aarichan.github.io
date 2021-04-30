@@ -1,7 +1,7 @@
 import { Nav, NavDropdown, Navbar} from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import pages from '../pagesList.js'
-import Resume from '../resume/resume.pdf'
+import { scroller } from "react-scroll";
 
 export default function NavBar() {
   let returnedLinks = [];
@@ -13,12 +13,17 @@ export default function NavBar() {
       link = "/"
     }
     name = element.name
-    if (name.toLowerCase() !== "resume") {
-      returnedLinks.push(<Nav.Link href={link}>{element.name}</Nav.Link>)
-    } 
-    else {
-      returnedLinks.push(<Nav.Link href={Resume}>{element.name}</Nav.Link>)
-    } 
+      returnedLinks.push(
+      <Nav.Link
+        onClick={() => scroller.scrollTo(""+element.name, {
+          smooth: true,
+          offset: 0,
+          duration: 800,
+          isDynamic: true,
+        })}
+      >
+        {element.name}
+      </Nav.Link>)
   });
 
   return (
