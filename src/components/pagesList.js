@@ -11,12 +11,6 @@ const pagesList = [
   {
     name: "Projects"
   },
-  {
-    name: "Articles"
-  },
-  {
-    name: "Blog"
-  }
 ];
 
 export default pagesList;
