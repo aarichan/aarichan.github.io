@@ -2,6 +2,55 @@
  * experience.css
  * By: Aaric Han
  * 
- * Created: 04/29/21
- * Last Modified: 04/29/21
+ * Created: 04/26/21
+ * Last Modified: 04/30/21
  */
+
+.card-head {
+  box-sizing: inherit;
+  width: 70vw;
+  background-color: rgb(53, 58, 63);
+  color: white;
+  border: 1px solid rgba(0,0,0,.125);
+  text-align: left;
+  display: flex;
+
+  user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+}
+.card-head:hover {
+  cursor: pointer;
+}
+.card-head-date-dropdown-hint {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.card-body {
+  width: 70vw;
+  box-sizing: inherit;
+  background-color: rgb(41, 44, 51);
+  text-align: left;
+  display: flex;
+
+  user-select: none; /* supported by Chrome and Opera */
+   -webkit-user-select: none; /* Safari */
+   -khtml-user-select: none; /* Konqueror HTML */
+   -moz-user-select: none; /* Firefox */
+   -ms-user-select: none; /* Internet Explorer/Edge */
+}
+
+@media only screen and (max-width: 700px) {
+  .card-head {
+    display: block;
+    width: 85vw;
+  }
+  .card-body {
+    display: block;
+    width: 85vw;
+  }
+}
+

@@ -5,12 +5,7 @@
 .App-logo {
   height: 40vmin;
   pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  border-radius: 50em;
 }
 
 .App-header {
@@ -24,6 +19,11 @@
   color: white;
 }
 
+.App-header p {
+  width: 70vw;
+  text-align: left;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -34,5 +34,14 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .App-header p {
+    width: 85vw;
+  }
+  .App-header h1 {
+    width: 85vw;
   }
 }

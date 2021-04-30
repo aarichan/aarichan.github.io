@@ -1,4 +1,13 @@
-import { Nav, NavDropdown, Navbar} from 'react-bootstrap'
+/**
+ * navbar.js
+ * By: Aaric Han
+ * 
+ * Created: 04/26/21
+ * Last Modified: 04/30/21
+ */
+
+
+import { Nav, Navbar} from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import pages from '../pagesList.js'
 import { scroller } from "react-scroll";
@@ -6,13 +15,11 @@ import { scroller } from "react-scroll";
 export default function NavBar() {
   let returnedLinks = [];
   let link = '';
-  let name = ''
   pages.forEach(element => {
     link = "/" + element.name.toLowerCase();
     if (link === '/home') {
       link = "/"
     }
-    name = element.name
       returnedLinks.push(
       <Nav.Link
         onClick={() => scroller.scrollTo(""+element.name, {
