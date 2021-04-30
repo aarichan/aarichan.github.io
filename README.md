@@ -11,6 +11,11 @@ If you found my website and/or GitHub profile interesting and want to chat, I wo
 My contact info can be found on my personal website. Feel free to reach out with any questions, concerns, comments, or discussion and I would be happy to entertain them!
 
 ## Website Changelog
+### Version 0.0.2
+Released on 04/30/21
+- Added more pages
+- Added Router, Switch, and Nav.Link
+
 ### Version 0.0.1 
 Released on 04/26/21
 - New personal website launched

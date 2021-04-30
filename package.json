@@ -1,15 +1,20 @@
 {
   "homepage": "http://aarichan.github.io",
   "name": "aarichan",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.8.3",
+    "bootstrap": "^4.6.0",
     "react": "^17.0.2",
+    "react-bootstrap": "^1.5.2",
     "react-dom": "^17.0.2",
+    "react-pdf": "^5.2.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
+    "rsuite": "^4.9.4",
     "web-vitals": "^1.1.1"
   },
   "scripts": {
