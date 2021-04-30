@@ -3,28 +3,5 @@
  * By: Aaric Han
  * 
  * Created: 04/26/21
- * Last Modified: 04/30/21
+ * Last Modified: 04/26/21
  */
-
-.head-disp {
-  display: block;
-  width: 70vw;
-}
-
-@media only screen and (max-width: 1260px) {
-  .head-disp {
-    font-size: 2rem;
-  }
-  #the-dot {
-    margin: auto;
-  }
-}
-@media only screen and (max-width: 1011px) {
-  .head-disp {
-    display: flex;
-    font-size: 2rem;
-  }
-  #the-dot {
-    margin: auto;
-  }
-}

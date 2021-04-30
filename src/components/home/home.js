@@ -23,7 +23,7 @@
           <br/>
           <img src={portrait} className="App-logo" alt="logo" />
           <br/>
-          <h1 className="head-disp">Problem Solver<span id="the-dot"> &#183; </span>Solution Builder<span id="the-dot"> &#183; </span>Lifelong Learner</h1>
+          <h1>Problem Solver <span>&#183;</span> Solution Builder <span>&#183;</span> Lifelong Learner</h1>
         </header>
       </div>
      );
