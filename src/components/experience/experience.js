@@ -25,7 +25,7 @@
           <Accordion>
             <Card>
               <Accordion.Toggle className="card-head" as={Card.Header} variant="link" eventKey="0">
-                Fidelity Investment - SWE Intern
+                Fidelity Investments - SWE Intern
                 <div className="card-head-date-dropdown-hint">
                   Beginning Jun 2021 &darr;
                 </div>
