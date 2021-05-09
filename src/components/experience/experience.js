@@ -22,7 +22,7 @@ class Experience extends React.Component {
       <header className="App-header">
         <h1>Experience</h1>
         <br/>
-        <Accordion defaultActiveKey="3">
+        <Accordion>
           <Card>
             <Accordion.Toggle className="card-head" as={Card.Header} variant="link" eventKey="3">
               Fidelity Investments - SWE Intern

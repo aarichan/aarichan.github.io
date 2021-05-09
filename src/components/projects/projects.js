@@ -18,7 +18,7 @@ export default function Projects() {
       <header className="App-header">
         <h1>Projects</h1>
         <br/>
-        <Accordion defaultActiveKey="0">
+        <Accordion>
           <Card>
             <Accordion.Toggle className="card-head" as={Card.Header} variant="link" eventKey="1">
               Tingjun Chen Lab - Researcher
