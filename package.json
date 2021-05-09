@@ -1,7 +1,7 @@
 {
   "homepage": "http://aarichan.github.io",
   "name": "aarichan",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",

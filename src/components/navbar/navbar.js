@@ -7,7 +7,7 @@
  */
 
 
-import { Nav, Navbar} from 'react-bootstrap'
+import { Nav, Navbar } from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import pages from '../pagesList.js'
 import { scroller } from "react-scroll";

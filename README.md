@@ -11,6 +11,12 @@ If you found my website and/or GitHub profile interesting and want to chat, I wo
 My contact info can be found on my personal website. Feel free to reach out with any questions, concerns, comments, or discussion and I would be happy to entertain them!
 
 ## Website Changelog
+### Version 1.0.0
+Released on 05/09/21
+- Completed the projects section
+- Version 1 of the website is ready to be published
+- Blog section planned for version 2 release
+
 ### Version 0.0.3
 Released on 04/30/21
 - Decided on one page format instead of multiple pages
