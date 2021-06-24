@@ -3,5 +3,21 @@
  * By: Aaric Han
  * 
  * Created: 04/26/21
- * Last Modified: 04/30/21
+ * Last Modified: 05/31/21
  */
+
+ .Container-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Container-header p {
+  width: 70vw;
+  text-align: left;
+}

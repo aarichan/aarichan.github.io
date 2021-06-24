@@ -13,7 +13,7 @@ export default function Footer() {
   return(
     <div className="App">
       <footer className="App-footer">
-        <p>&#169; Aaric Han (2021) | aarichan.github.io</p>
+        <p>Copyright &#169; 2021 Aaric Han</p>
       </footer>
     </div>
   );

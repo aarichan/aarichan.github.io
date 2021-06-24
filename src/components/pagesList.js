@@ -8,9 +8,6 @@ const pagesList = [
   {
     name: "Experience"
   },
-  {
-    name: "Projects"
-  },
 ];
 
 export default pagesList;

@@ -3,7 +3,7 @@
  * By: Aaric Han
  * 
  * Created: 04/26/21
- * Last Modified: 05/09/21
+ * Last Modified: 06/24/21
  */
 
 import './experience.css'
@@ -23,27 +23,31 @@ class Experience extends React.Component {
         <h1>Experience</h1>
         <br/>
         <Accordion>
+          {/* Tingjun Lab */}
           <Card>
-            <Accordion.Toggle className="card-head" as={Card.Header} variant="link" eventKey="3">
-              Fidelity Investments - SWE Intern
+            <Accordion.Toggle className="card-head" as={Card.Header} variant="link" eventKey="5">
+              Tingjun Chen Lab - Undergraduate Researcher
               <div className="card-head-date-dropdown-hint">
-                Beginning Jun 2021 &darr;
+                May 2021 - Present &darr;
               </div>
             </Accordion.Toggle>
-            <Accordion.Collapse eventKey="3">
-              <Card.Body className="card-body">
-                Incoming Full Stack SWE Intern for Fidelity Investments
+            <Accordion.Collapse eventKey="5">
+              <Card.Body>
+                <span>
+                  - Research info coming soon
+                </span>
               </Card.Body>
             </Accordion.Collapse>
           </Card>
+          {/* 250 TA */}
           <Card>
-            <Accordion.Toggle className="card-head" as={Card.Header} variant="link" eventKey="2">
+            <Accordion.Toggle className="card-head" as={Card.Header} variant="link" eventKey="4">
               Duke - CS 250: Computer Architecture UTA
               <div className="card-head-date-dropdown-hint">
                 Jan 2021 - Present &darr;
               </div>
             </Accordion.Toggle>
-            <Accordion.Collapse eventKey="2">
+            <Accordion.Collapse eventKey="4">
               <Card.Body className="card-body">
                 - Teaching assistant for the Computer Architecture class at Duke (Spring 2021, Summer 2021)
                 <br/>
@@ -55,6 +59,49 @@ class Experience extends React.Component {
               </Card.Body>
             </Accordion.Collapse>
           </Card>
+          {/* Fidelity Investments */}
+          <Card>
+            <Accordion.Toggle className="card-head" as={Card.Header} variant="link" eventKey="3">
+              Fidelity Investments - SWE Intern
+              <div className="card-head-date-dropdown-hint">
+                Jun 2021 - Aug 2021 &darr;
+              </div>
+            </Accordion.Toggle>
+            <Accordion.Collapse eventKey="3">
+              <Card.Body className="card-body">
+                - SWE Intern for Fidelity Investments
+                <br/>
+                - Worked alongside two fellow interns on the cloud onboarding team
+              </Card.Body>
+            </Accordion.Collapse>
+          </Card>
+          {/* Parti */}
+          <Card>
+            <Accordion.Toggle className="card-head" as={Card.Header} variant="link" eventKey="2">
+              Parti - Full Stack Developer
+              <div className="card-head-date-dropdown-hint">
+                Dec 2020 - Apr 2021 &darr;
+              </div>
+            </Accordion.Toggle>
+            <Accordion.Collapse eventKey="2">
+              <Card.Body>
+                <span>
+                  <a href="https://parti.app">Link to Parti</a>
+                  <br/>
+                  - Founded a start-up focused on connecting event planners with event service providers in an intuitive web app 
+                  <br/>
+                  - Followed a scrum style development
+                  <br/>
+                  - Designed and developed the Service Profile, Create Event, and Homepage pages
+                  <br/>
+                  - Used React, Material UI, JavaScript, HTML, CSS, and Firebase for frontend and backend development
+                  <br/>
+                  - Used Git for version control management
+                </span>
+              </Card.Body>
+            </Accordion.Collapse>
+          </Card>
+          {/* Counter Culture Coffee */}
           <Card>
             <Accordion.Toggle className="card-head" as={Card.Header} variant="link" eventKey="1">
               Counter Culture Coffee - Software Developer
@@ -70,6 +117,7 @@ class Experience extends React.Component {
               </Card.Body>
             </Accordion.Collapse>
           </Card>
+          {/* Cisco Program Coordinator */}
           <Card>
             <Accordion.Toggle className="card-head" as={Card.Header} variant="link" eventKey="0">
               Cisco Systems - Program Coordinator Intern
