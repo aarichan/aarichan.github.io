@@ -3,7 +3,7 @@
 https://aarichan.github.io
 
 ## About Website
-This website's purpose is to showcase my professional and personal experiences and thoughts. You can expect to find descriptions of my personal projects, professional experiences, and research interests on the website. You can also find my thoughts about life and consumer electronics through the blog section of my website.
+This website's purpose is to showcase my professional and personal experiences and thoughts. You can expect to find descriptions of my personal projects, professional experiences, and research interests on the website.
 
 ## Contact Me
 My contact info can be found on my personal website. Feel free to reach out with any questions, concerns, comments, or discussion and I would be happy to entertain them!
