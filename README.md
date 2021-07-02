@@ -12,6 +12,7 @@ My contact info can be found on my personal website. Feel free to reach out with
 ### Version 1.0.2
 Released on 07/02/21
 - Edited dates in the experience section
+- Added contact info to about section
 
 ### Version 1.0.1
 Released on 06/24/21
