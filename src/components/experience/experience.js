@@ -3,7 +3,7 @@
  * By: Aaric Han
  * 
  * Created: 04/26/21
- * Last Modified: 06/24/21
+ * Last Modified: 07/04/21
  */
 
 import './experience.css'
@@ -23,8 +23,7 @@ class Experience extends React.Component {
         <h1>Experience</h1>
         <br/>
         <Accordion>
-          {/* Tingjun Lab */}
-          <Card>
+          <Card /* Tingjun Lab */>
             <Accordion.Toggle className="card-head" as={Card.Header} variant="link" eventKey="5">
               Tingjun Chen Lab - Undergraduate Researcher
               <div className="card-head-date-dropdown-hint">
@@ -39,8 +38,7 @@ class Experience extends React.Component {
               </Card.Body>
             </Accordion.Collapse>
           </Card>
-          {/* 250 TA */}
-          <Card>
+          <Card /* 250 TA */>
             <Accordion.Toggle className="card-head" as={Card.Header} variant="link" eventKey="4">
               Duke - CS 250: Computer Architecture UTA
               <div className="card-head-date-dropdown-hint">
@@ -59,12 +57,11 @@ class Experience extends React.Component {
               </Card.Body>
             </Accordion.Collapse>
           </Card>
-          {/* Fidelity Investments */}
-          <Card>
+          <Card /* Fidelity Investments */>
             <Accordion.Toggle className="card-head" as={Card.Header} variant="link" eventKey="3">
               Fidelity Investments - SWE Intern
               <div className="card-head-date-dropdown-hint">
-                Jun 2021 - Aug 2021 &darr;
+                Jun 2021 - Present &darr;
               </div>
             </Accordion.Toggle>
             <Accordion.Collapse eventKey="3">
@@ -75,8 +72,7 @@ class Experience extends React.Component {
               </Card.Body>
             </Accordion.Collapse>
           </Card>
-          {/* Parti */}
-          <Card>
+          <Card /* Parti */>
             <Accordion.Toggle className="card-head" as={Card.Header} variant="link" eventKey="2">
               Parti - Full Stack Developer
               <div className="card-head-date-dropdown-hint">
@@ -101,8 +97,7 @@ class Experience extends React.Component {
               </Card.Body>
             </Accordion.Collapse>
           </Card>
-          {/* Counter Culture Coffee */}
-          <Card>
+          <Card /* Counter Culture Coffee */>
             <Accordion.Toggle className="card-head" as={Card.Header} variant="link" eventKey="1">
               Counter Culture Coffee - Software Developer
               <div className="card-head-date-dropdown-hint">
@@ -117,8 +112,7 @@ class Experience extends React.Component {
               </Card.Body>
             </Accordion.Collapse>
           </Card>
-          {/* Cisco Program Coordinator */}
-          <Card>
+          <Card /* Cisco Program Coordinator */>
             <Accordion.Toggle className="card-head" as={Card.Header} variant="link" eventKey="0">
               Cisco Systems - Program Coordinator Intern
               <div className="card-head-date-dropdown-hint">

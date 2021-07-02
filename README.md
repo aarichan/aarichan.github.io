@@ -9,6 +9,10 @@ This website's purpose is to showcase my professional and personal experiences a
 My contact info can be found on my personal website. Feel free to reach out with any questions, concerns, comments, or discussion and I would be happy to entertain them!
 
 ## Website Changelog
+### Version 1.0.2
+Released on 07/02/21
+- Edited dates in the experience section
+
 ### Version 1.0.1
 Released on 06/24/21
 - Deleted the projects section and combined the contents into the experience section
@@ -36,3 +40,7 @@ Released on 04/26/21
 - New personal website launched
 - Verified Google Search Console for SEO
 - Changed App.js to say "Under Construction... Please check back later!"
+
+## Running and publishing (for my reference)
+`npm run build`
+`npm run deploy`
