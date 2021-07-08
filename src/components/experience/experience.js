@@ -3,7 +3,7 @@
  * By: Aaric Han
  * 
  * Created: 04/26/21
- * Last Modified: 07/04/21
+ * Last Modified: 07/08/21
  */
 
 import './experience.css'
@@ -48,6 +48,8 @@ class Experience extends React.Component {
             <Accordion.Collapse eventKey="4">
               <Card.Body className="card-body">
                 - Teaching assistant for the Computer Architecture class at Duke (Spring 2021, Summer 2021)
+                <br/>
+                - Awarded a TA citation from Duke faculty members for the Spring 2021 semester
                 <br/>
                 - Taught and developed materials for C, MIPS, RISC-V, processor design, cache, and pipelining concepts
                 <br/>

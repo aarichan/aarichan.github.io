@@ -3,12 +3,17 @@
 https://aarichan.github.io
 
 ## About Website
-This website's purpose is to showcase my professional and personal experiences and thoughts. You can expect to find descriptions of my personal projects, professional experiences, and research interests on the website.
+This website's purpose is to showcase my professional and personal experiences and thoughts. You can expect to find descriptions of my personal projects, professional experiences, and research interests on the website. A blog section of the website is in the works and coming soon!
 
 ## Contact Me
 My contact info can be found on my personal website. Feel free to reach out with any questions, concerns, comments, or discussion and I would be happy to entertain them!
 
 ## Website Changelog
+### Version 1.1.0
+Released on 07/08/21
+- Added ECE TA experience section with a citation award for Spring 2021
+- Edited the scripts section of the README.md
+
 ### Version 1.0.2
 Released on 07/02/21
 - Edited dates in the experience section
@@ -43,5 +48,5 @@ Released on 04/26/21
 - Changed App.js to say "Under Construction... Please check back later!"
 
 ## Running and publishing (for my reference)
-`npm run build`
-`npm run deploy`
+`npm run predeploy` - to build
+`npm run deploy` - to deploy to GitHub Pages
