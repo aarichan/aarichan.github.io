@@ -3,7 +3,7 @@
  * By: Aaric Han
  * 
  * Created: 04/26/21
- * Last Modified: 07/08/21
+ * Last Modified: 07/12/21
  */
 
 import './experience.css'
@@ -40,7 +40,7 @@ class Experience extends React.Component {
           </Card>
           <Card /* 250 TA */>
             <Accordion.Toggle className="card-head" as={Card.Header} variant="link" eventKey="4">
-              Duke - CS 250: Computer Architecture UTA
+              Duke - ECE/CS 250: Computer Architecture TA
               <div className="card-head-date-dropdown-hint">
                 Jan 2021 - Present &darr;
               </div>
