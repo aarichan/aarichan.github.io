@@ -1,23 +1,11 @@
-/**
- * experience.js
- * By: Aaric Han
- * 
- * Created: 04/26/21
- * Last Modified: 07/12/21
- */
-
 import './experience.css'
-import React from 'react';
+
+import React from "react";
 import Accordion from 'react-bootstrap/Accordion'
 import {Card} from 'react-bootstrap'
- 
-class Experience extends React.Component {
-  constructor() {
-    super();
-    this.state = {};
-  }
-  render() {
-    return (
+
+function Experience() {
+  return(
     <div className="App" id="Experience">
       <header className="App-header">
         <h1>Experience</h1>
@@ -53,7 +41,7 @@ class Experience extends React.Component {
                 <br/>
                 - Taught and developed materials for C, MIPS, RISC-V, processor design, cache, and pipelining concepts
                 <br/>
-                - Resolved students’ questions on programming assignments or computer architecture concepts
+                - Resolved studentsâ€™ questions on programming assignments or computer architecture concepts
                 <br/>
                 - Received top ratings from students on my technical knowledge, communication clarity, and engagement with students in recitation and in office hours
               </Card.Body>
@@ -136,8 +124,6 @@ class Experience extends React.Component {
         </Accordion>
       </header>
     </div>
-    );
-  }
+  )
 }
-
 export default Experience;

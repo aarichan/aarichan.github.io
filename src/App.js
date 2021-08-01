@@ -1,20 +1,25 @@
-import './App.css';
+import './App.css'
 
-import NavBar from './components/navbar/navbar.js'
-import Home from './components/home/home.js'
-import About from './components/about/about.js'
-import Experience from './components/experience/experience.js';
-import Footer from './components/footer/footer.js'
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+
+import NavBar from './components/navbar/navbar'
+import Home from './components/home/home'
+import About from './components/about/about'
+import Experience from './components/experience/experience'
+import Blog from './components/blog/blog'
 
 function App() {
   return (
-    <>
-      <NavBar/>
-      <Home/>
-      <About/>
-      <Experience/>
-      <Footer/>
-    </>
+    <div className='App'>
+      <NavBar />
+      <Router>
+        <Route exact path='/' component={Home} />
+        <Route exact path='/home' component={Home} />
+        <Route exact path='/about' component={About} />
+        <Route exact path='/experience' component={Experience} />
+        <Route exact path='/blog' component={Blog} />
+      </Router>
+    </div>
   );
 }
 

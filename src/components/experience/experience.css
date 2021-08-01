@@ -1,11 +1,3 @@
-/**
- * experience.css
- * By: Aaric Han
- * 
- * Created: 04/26/21
- * Last Modified: 04/30/21
- */
-
 .card-head {
   box-sizing: inherit;
   width: 70vw;
@@ -61,4 +53,3 @@
     width: 85vw;
   }
 }
-

@@ -9,6 +9,11 @@ This website's purpose is to showcase my professional and personal experiences a
 My contact info can be found on my personal website. Feel free to reach out with any questions, concerns, comments, or discussion and I would be happy to entertain them!
 
 ## Website Changelog
+### Version 1.2.0
+Released on 08/01/21
+- Changed the format the website from one-page scrollable to multiple pages
+- Preparing route to add a blog section in version 2
+
 ### Version 1.1.1
 Released on 07/12/21
 - Changed CS 250 to ECE/CS 250

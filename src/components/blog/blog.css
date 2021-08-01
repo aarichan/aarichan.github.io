@@ -7,8 +7,3 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.Container-header p {
-  width: 70vw;
-  text-align: left;
-}
