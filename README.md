@@ -9,6 +9,16 @@ This website's purpose is to showcase my professional and personal experiences a
 My contact info can be found on my personal website. Feel free to reach out with any questions, concerns, comments, or discussion and I would be happy to entertain them!
 
 ## Website Changelog
+### Version 1.2.2
+Released on 08/01/21
+- HashRouter Hotfix worked
+- Cleaned up code, paths, and routes
+
+### Version 1.2.1
+Released on 08/01/21
+- BrowserRouter doesn't work on GitHub pages
+- Hotfix testing HashRouter
+
 ### Version 1.2.0
 Released on 08/01/21
 - Changed the format the website from one-page scrollable to multiple pages

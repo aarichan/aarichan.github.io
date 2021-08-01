@@ -2,7 +2,7 @@ import './experience.css'
 
 import React from "react";
 import Accordion from 'react-bootstrap/Accordion'
-import {Card} from 'react-bootstrap'
+import { Card } from 'react-bootstrap'
 
 function Experience() {
   return(
