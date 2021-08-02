@@ -9,6 +9,12 @@ This website's purpose is to showcase my professional and personal experiences a
 My contact info can be found on my personal website. Feel free to reach out with any questions, concerns, comments, or discussion and I would be happy to entertain them!
 
 ## Website Changelog
+### Version 2.0.0
+Released on 08/02/21
+- Finished the Blog section
+- May need to reorganize if not easily usable on mobile
+- Still in testing phase
+
 ### Version 1.2.2
 Released on 08/01/21
 - HashRouter Hotfix worked

@@ -41,7 +41,7 @@ function Experience() {
                 <br/>
                 - Taught and developed materials for C, MIPS, RISC-V, processor design, cache, and pipelining concepts
                 <br/>
-                - Resolved studentsâ€™ questions on programming assignments or computer architecture concepts
+                - Resolved students' questions on programming assignments or computer architecture concepts
                 <br/>
                 - Received top ratings from students on my technical knowledge, communication clarity, and engagement with students in recitation and in office hours
               </Card.Body>
