@@ -78,7 +78,7 @@ function BlogCard(props) {
         aria-labelledby="scroll-dialog-title"
         aria-describedby="scroll-dialog-description"
         fullWidth={true}
-        maxWidth="lg"
+        maxWidth="xl"
       >
         <DialogTitle id="scroll-dialog-title">{props.title}</DialogTitle>
         <DialogContent dividers={scroll === 'body'}>

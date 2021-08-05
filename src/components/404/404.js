@@ -8,7 +8,7 @@ function Page404() {
   return(
     <div className="App">
       <header className="App-header">
-        <img src={deadmac} />
+        <img src={deadmac} alt="Dead-Mac-Img" />
         <br />
         404 - Page Not Found
       </header>

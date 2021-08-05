@@ -8,7 +8,16 @@ This website's purpose is to showcase my professional and personal experiences a
 ## Contact Me
 My contact info can be found on my personal website. Feel free to reach out with any questions, concerns, comments, or discussion and I would be happy to entertain them!
 
+## Planned Features
+- Fix blog post rendering on mobile devices in version 2
+- Add a projects section to the website in version 3
+
 ## Website Changelog
+### Version 2.0.1
+Released on 08/05/21
+- Removed blog posts because of formatting issues
+- Added a planned features section to the README
+
 ### Version 2.0.0
 Released on 08/02/21
 - Finished the Blog section
