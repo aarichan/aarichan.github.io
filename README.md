@@ -14,6 +14,9 @@ My contact info can be found on my personal website. Feel free to reach out with
 
 ## Website Changelog
 ### Version 2.0.1
+- Added Fall 2021 to 250 TA experience page
+
+### Version 2.0.1
 Released on 08/05/21
 - Removed blog posts because of formatting issues
 - Added a planned features section to the README

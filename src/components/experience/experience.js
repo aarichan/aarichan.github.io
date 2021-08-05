@@ -35,7 +35,7 @@ function Experience() {
             </Accordion.Toggle>
             <Accordion.Collapse eventKey="4">
               <Card.Body className="card-body">
-                - Teaching assistant for the Computer Architecture class at Duke (Spring 2021, Summer 2021)
+                - Teaching assistant for the Computer Architecture class at Duke (Spring 2021, Summer 2021, Fall 2021)
                 <br/>
                 - Awarded a TA citation from Duke faculty members for the Spring 2021 semester
                 <br/>
