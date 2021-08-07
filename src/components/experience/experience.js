@@ -11,11 +11,24 @@ function Experience() {
         <h1>Experience</h1>
         <br/>
         <Accordion>
-          <Card /* Tingjun Lab */>
+          <Card /* 210 TA (5) */>
+            <Accordion.Toggle className="card-head" as={Card.Header} variant="link" eventKey="6">
+              Duke - CS 210: Intro to Computer Systems TA
+              <div className="card-head-date-dropdown-hint">
+                Aug 2021 - Present &darr;
+              </div>
+            </Accordion.Toggle>
+            <Accordion.Collapse eventKey="6">
+              <Card.Body className="card-body">
+                - Teaching assistant for the Intro to Computer Systems class at Duke (Fall 2021)
+              </Card.Body>
+            </Accordion.Collapse>
+          </Card>
+          <Card /* Tingjun Lab (4) */>
             <Accordion.Toggle className="card-head" as={Card.Header} variant="link" eventKey="5">
               Tingjun Chen Lab - Undergraduate Researcher
               <div className="card-head-date-dropdown-hint">
-                May 2021 - Present &darr;
+                Aug 2021 - Present &darr;
               </div>
             </Accordion.Toggle>
             <Accordion.Collapse eventKey="5">
@@ -26,7 +39,7 @@ function Experience() {
               </Card.Body>
             </Accordion.Collapse>
           </Card>
-          <Card /* 250 TA */>
+          <Card /* 250 TA (4) */>
             <Accordion.Toggle className="card-head" as={Card.Header} variant="link" eventKey="4">
               Duke - ECE/CS 250: Computer Architecture TA
               <div className="card-head-date-dropdown-hint">
@@ -47,11 +60,11 @@ function Experience() {
               </Card.Body>
             </Accordion.Collapse>
           </Card>
-          <Card /* Fidelity Investments */>
+          <Card /* Fidelity Investments (3) */>
             <Accordion.Toggle className="card-head" as={Card.Header} variant="link" eventKey="3">
               Fidelity Investments - SWE Intern
               <div className="card-head-date-dropdown-hint">
-                Jun 2021 - Present &darr;
+                Jun 2021 - Aug 2021 &darr;
               </div>
             </Accordion.Toggle>
             <Accordion.Collapse eventKey="3">
@@ -62,7 +75,7 @@ function Experience() {
               </Card.Body>
             </Accordion.Collapse>
           </Card>
-          <Card /* Parti */>
+          <Card /* Parti (2) */>
             <Accordion.Toggle className="card-head" as={Card.Header} variant="link" eventKey="2">
               Parti - Full Stack Developer
               <div className="card-head-date-dropdown-hint">
@@ -87,7 +100,7 @@ function Experience() {
               </Card.Body>
             </Accordion.Collapse>
           </Card>
-          <Card /* Counter Culture Coffee */>
+          <Card /* Counter Culture Coffee (1) */>
             <Accordion.Toggle className="card-head" as={Card.Header} variant="link" eventKey="1">
               Counter Culture Coffee - Software Developer
               <div className="card-head-date-dropdown-hint">
@@ -102,7 +115,7 @@ function Experience() {
               </Card.Body>
             </Accordion.Collapse>
           </Card>
-          <Card /* Cisco Program Coordinator */>
+          <Card /* Cisco Program Coordinator (0) */>
             <Accordion.Toggle className="card-head" as={Card.Header} variant="link" eventKey="0">
               Cisco Systems - Program Coordinator Intern
               <div className="card-head-date-dropdown-hint">

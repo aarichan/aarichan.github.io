@@ -13,7 +13,18 @@ My contact info can be found on my personal website. Feel free to reach out with
 - Add a projects section to the website in version 3
 
 ## Website Changelog
-### Version 2.0.1
+
+### Understanding the Changelog
+- 0.0.X represents a minute change in the text of a page
+- 0.X.0 represents a bug fix to the rendering or functionality of a page
+- X.0.0 represents a new feature added to the website (a blog section, an experience section, etc.)
+
+### Version 2.0.3
+- Added CS 210 TA to experience page
+- Added end date for Fidelity Internship
+
+### Version 2.0.2
+Released on 08/05/21
 - Added Fall 2021 to 250 TA experience page
 
 ### Version 2.0.1
