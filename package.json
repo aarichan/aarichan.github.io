@@ -1,7 +1,7 @@
 {
   "homepage": "http://aarichan.github.io",
   "name": "aarichan",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.4",
