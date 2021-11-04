@@ -12,30 +12,15 @@ function Experience() {
         <br/>
         <Accordion>
           <Card /* 210 TA (5) */>
-            <Accordion.Toggle className="card-head" as={Card.Header} variant="link" eventKey="6">
-              Duke - CS 210: Intro to Computer Systems TA
+            <Accordion.Toggle className="card-head" as={Card.Header} variant="link" eventKey="5">
+              Duke - CS 210: Intro to Computer Systems Head TA
               <div className="card-head-date-dropdown-hint">
                 Aug 2021 - Present &darr;
               </div>
             </Accordion.Toggle>
             <Accordion.Collapse eventKey="6">
               <Card.Body className="card-body">
-                - Teaching assistant for the Intro to Computer Systems class at Duke (Fall 2021)
-              </Card.Body>
-            </Accordion.Collapse>
-          </Card>
-          <Card /* Tingjun Lab (4) */>
-            <Accordion.Toggle className="card-head" as={Card.Header} variant="link" eventKey="5">
-              Tingjun Chen Lab - Undergraduate Researcher
-              <div className="card-head-date-dropdown-hint">
-                Aug 2021 - Present &darr;
-              </div>
-            </Accordion.Toggle>
-            <Accordion.Collapse eventKey="5">
-              <Card.Body>
-                <span>
-                  - Research info coming soon
-                </span>
+                - Head teaching assistant for the Intro to Computer Systems class at Duke (Fall 2021)
               </Card.Body>
             </Accordion.Collapse>
           </Card>

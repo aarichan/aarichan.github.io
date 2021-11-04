@@ -19,6 +19,9 @@ My contact info can be found on my personal website. Feel free to reach out with
 - 0.X.0 represents a bug fix to the rendering or functionality of a page
 - X.0.0 represents a new feature added to the website (a blog section, an experience section, etc.)
 
+### Version 2.0.4
+- Edited about page and experience page
+
 ### Version 2.0.3
 - Added CS 210 TA to experience page
 - Added end date for Fidelity Internship
