@@ -18,7 +18,7 @@ function Experience() {
                 Aug 2021 - Present &darr;
               </div>
             </Accordion.Toggle>
-            <Accordion.Collapse eventKey="6">
+            <Accordion.Collapse eventKey="5">
               <Card.Body className="card-body">
                 - Head teaching assistant for the Intro to Computer Systems class at Duke (Fall 2021)
               </Card.Body>
