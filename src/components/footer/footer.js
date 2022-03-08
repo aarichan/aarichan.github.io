@@ -13,7 +13,7 @@ export default function Footer() {
   return(
     <div className="App">
       <footer className="App-footer">
-        <p>Copyright &#169; 2021 Aaric Han</p>
+        <p>Copyright &#169; 2021-2022 Aaric Han</p>
       </footer>
     </div>
   );

@@ -11,16 +11,33 @@ function Experience() {
         <h1>Experience</h1>
         <br/>
         <Accordion>
+          <Card /* ASIC Verification (6) */>
+            <Accordion.Toggle className="card-head" as={Card.Header} variant="link" eventKey="6">
+              NVIDIA - ASIC Verification Intern
+              <div className="card-head-date-dropdown-hint">
+                Beginning May 2022 &darr;
+              </div>
+            </Accordion.Toggle>
+            <Accordion.Collapse eventKey="6">
+              <Card.Body className="card-body">
+                Incoming ASIC Verification Intern working on supporting NVLink
+              </Card.Body>
+            </Accordion.Collapse>
+          </Card>
           <Card /* 210 TA (5) */>
             <Accordion.Toggle className="card-head" as={Card.Header} variant="link" eventKey="5">
-              Duke - CS 210: Intro to Computer Systems Head TA
+              Duke - CS 210: Intro to Computer Systems TA
               <div className="card-head-date-dropdown-hint">
                 Aug 2021 - Present &darr;
               </div>
             </Accordion.Toggle>
             <Accordion.Collapse eventKey="5">
               <Card.Body className="card-body">
-                - Head teaching assistant for the Intro to Computer Systems class at Duke (Fall 2021)
+                - Head teaching assistant for the Intro to Computer Systems class at Duke (Fall 2021, Spring 2022)
+                <br/>
+                - Taught and developed homework and discussion materials for C, x86-64 Assembly reverse engineering concepts
+                <br/>
+                - Resolved students’ questions on programming assignments or lecture concepts
               </Card.Body>
             </Accordion.Collapse>
           </Card>
@@ -28,7 +45,7 @@ function Experience() {
             <Accordion.Toggle className="card-head" as={Card.Header} variant="link" eventKey="4">
               Duke - ECE/CS 250: Computer Architecture TA
               <div className="card-head-date-dropdown-hint">
-                Jan 2021 - Present &darr;
+                Jan 2021 - Dec 2022 &darr;
               </div>
             </Accordion.Toggle>
             <Accordion.Collapse eventKey="4">
@@ -54,9 +71,9 @@ function Experience() {
             </Accordion.Toggle>
             <Accordion.Collapse eventKey="3">
               <Card.Body className="card-body">
-                - SWE Intern for Fidelity Investments
-                <br/>
-                - Worked alongside two fellow interns on the cloud onboarding team
+              - Developed an automated system to auto-approve tickets for the Cloud Onboarding team
+              <br/>
+              - Streamlined the ticket approval system to reduce the Cloud Onboarding team's workload
               </Card.Body>
             </Accordion.Collapse>
           </Card>

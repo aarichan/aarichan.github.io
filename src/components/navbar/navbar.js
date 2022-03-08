@@ -18,9 +18,9 @@ function NavBar() {
           <Nav.Link href="/#/experience">
             Experience
           </Nav.Link>
-          <Nav.Link href="/#/blog">
+          {/* <Nav.Link href="/#/blog">
             Blog
-          </Nav.Link>
+          </Nav.Link> */}
         </Nav>
       </Navbar.Collapse>
     </Navbar>

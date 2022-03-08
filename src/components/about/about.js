@@ -7,7 +7,7 @@ function About() {
       <header className="App-header">
         <h1>About Me</h1>
         <br/>
-        <p>Undergraduate at Duke University interested in learning about next-generation wireless technologies and computer architecture. I am also passionate about user centric web design/development and hope to create meaningful solutions for real world problems.</p>
+        <p>Undergraduate at Duke University interested in learning about next-generation wireless technologies and computer architecture.</p>
         <p>My research interests are next-gen wireless technologies and computer architecture.</p>
         <br/>
         <p>Contact Me!</p>
