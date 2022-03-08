@@ -9,8 +9,7 @@ This website's purpose is to showcase my professional and personal experiences a
 My contact info can be found on my personal website. Feel free to reach out with any questions, concerns, comments, or discussion and I would be happy to entertain them!
 
 ## Planned Features
-- Fix blog post rendering on mobile devices in version 2
-- Add a projects section to the website in version 3
+- None at this time
 
 ## Website Changelog
 
@@ -18,6 +17,9 @@ My contact info can be found on my personal website. Feel free to reach out with
 - 0.0.X represents a minute change in the text of a page
 - 0.X.0 represents a bug fix to the rendering or functionality of a page
 - X.0.0 represents a new feature added to the website (a blog section, an experience section, etc.)
+
+### Version 2.0.5
+- Updated the footer, about, and experience pages
 
 ### Version 2.0.4
 - Edited about page and experience
