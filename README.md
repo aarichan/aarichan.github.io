@@ -18,6 +18,9 @@ My contact info can be found on my personal website. Feel free to reach out with
 - 0.X.0 represents a bug fix to the rendering or functionality of a page
 - X.0.0 represents a new feature added to the website (a blog section, an experience section, etc.)
 
+### Version 2.0.6
+- Updated the about and experience pages
+
 ### Version 2.0.5
 - Updated the footer, about, and experience pages
 

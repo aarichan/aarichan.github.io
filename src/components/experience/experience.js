@@ -15,7 +15,7 @@ function Experience() {
             <Accordion.Toggle className="card-head" as={Card.Header} variant="link" eventKey="6">
               NVIDIA - ASIC Verification Intern
               <div className="card-head-date-dropdown-hint">
-                Beginning May 2022 &darr;
+                May 2022 - Present &darr;
               </div>
             </Accordion.Toggle>
             <Accordion.Collapse eventKey="6">
